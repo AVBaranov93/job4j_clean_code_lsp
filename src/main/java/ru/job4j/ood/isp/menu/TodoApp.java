@@ -44,7 +44,7 @@ public class TodoApp {
             } else if (chooseAction == 3) {
                 DEFAULT_ACTION.delegate();
             } else if (chooseAction == 4) {
-                new SimpleMenuPrinter().print(menu);
+                new Printer().print(menu);
             } else if (chooseAction == 0) {
                 isRunning = false;
             } else {
